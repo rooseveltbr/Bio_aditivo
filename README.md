@@ -1,0 +1,1 @@
+Aplicativo feito com HTML5/CSS3/JS para facilitar os cálculos de genes aditivos em Biologia. Você entra com o mínimo/máximo e os genótipos e ele gera os valores para genes aditivos, recessivos e o valor total do genótipo em questão.
