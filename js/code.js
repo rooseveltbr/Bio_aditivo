@@ -1,4 +1,4 @@
- 	function SomenteLetras(e){
+function SomenteLetras(e){
      var tecla=(window.event)?event.keyCode:e.which;
      if((tecla >= 65 && tecla <= 90)||(tecla >= 97 && tecla <= 122 || tecla == 44 || tecla == 32 )) return true;
     else{
