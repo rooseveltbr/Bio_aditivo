@@ -1,0 +1,235 @@
+body{
+	background-image: url(../img/wall-natureza.jpg);
+}
+/* Divs */
+#aviso {
+	background-color: #000;
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-family: arial;
+	z-index: 101;
+	opacity: 0.7;
+	cursor: pointer;
+}
+#resul, #limp {
+	cursor: pointer;
+}
+div#geral {
+	position: absolute;
+	background-color: #fff;
+	margin-top: 15px;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	opacity: 0.97;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	z-index: 100;
+}
+section#formulario{
+	position: relative;
+	margin: 5px 0px 50px 0px;
+	left: 170px;
+}
+section#formulario figure{
+	position: absolute;
+	float: right;
+	margin-left: -120px;
+	margin-top: -10px;
+}
+section#formulario form span{
+	color: #fff;
+	text-align:center;
+	width: 97px;
+	padding: 4px;
+	background: #00CCFF;
+	display: block;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 7px;
+	border-bottom-right: 8px;
+}
+header figure{
+	margin-left: 120px;
+}
+footer{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.85);
+	width: 500px;
+	height: 323px;
+	left: 50%;
+	top: 462px;
+	border-top-right-radius: 35px;
+	border-bottom-left-radius: 20px;
+	margin-left: -250px;
+	z-index: 200;
+}
+footer article p{
+	position: relative;
+	font-family: "arial";
+	top: -150px;
+	left: 180px;
+	font-size: 19px;
+	color: #fff;
+}
+footer article p[name=descricao]{
+	width: 300px;
+	position: relative;
+	font-family: "arial";
+	font-size: 14px;
+	color: #fff;
+}
+footer span {
+	position: absolute;
+	font-size: 25px;
+	padding: 12px 8px 12px 8px;
+	border-bottom-right-radius: 19px;
+	margin-left: 15px;
+	margin-top: -20px;
+	background-color: #ff7b33;
+	  box-shadow: 
+    1px 1px #ff5a2b,
+    2px 2px #ff5a2b,
+    3px 3px #ff5a2b;
+	color: #fff;
+}
+footer article img[name=facebook], footer article img[name=twitter]{
+	position: relative;
+	opacity: 0.7;
+	width: 12%;
+}
+footer article img[name=facebook]{
+	top: -151px;
+	left: 404px;
+}
+footer article img[name=twitter]{
+	top: -151px;
+	left: 277px;
+	
+}
+#sbp{
+	position: absolute;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+	z-index: 300;
+}
+#resultadofinal{
+	position: absolute;
+	background: #fff;
+	margin-top: 26px;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 400;
+}
+#resultadofinal tr > td {
+	text-align:center;
+}
+/* Classes */
+.inoutinput {
+  display: block;
+  border: 1px solid silver;
+  background: linear-gradient(#eee, #fff);
+  transition: all 0.2s ease-out;
+  padding: 5px;
+  color: #555;
+  font-size: 17px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 7px;
+}
+.inoutinput:focus {
+  outline: none;
+  background-position: 0 -1.77em;
+}
+.lineinput {
+  display: block;
+  border: none;
+  color: #333;
+  background: transparent;
+  border-bottom: 1px dotted black;
+  padding: 5px 2px 0 2px;
+  font-size: 17px;
+}
+
+.lineinput:focus { 
+  outline: none;
+  border-color: #51CBEE;
+}
+
+.botao3d {
+  position: relative;
+  top: 18px;
+  left: 4px;
+  box-shadow: 
+    1px 1px #53A7EA,
+    2px 2px #53A7EA,
+    3px 3px #53A7EA;
+  transition: all 0.1s ease-in;
+  background-color: #00BFFF;
+  color: #fff;
+  font-size: 22px;
+  padding: 4px;
+}
+.botao3d:hover { 
+  box-shadow: none;
+  top: 18px;
+  left: 6px;
+  color: #fff;
+  padding: 6px;
+}
+#fechar{
+	display: block;
+	width: 12px;
+	height: 20px;
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	margin-left: 233px;
+	color: #fff;
+	background-color: #025076;
+	font-size: 17px;
+	padding: 5px 9px 5px 9px;
+	border-radius: 15px;
+	opacity: 0.8;
+	z-index: 501;
+	cursor: pointer;
+}
+.botao3dred {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  box-shadow: 
+    1px 1px #b93131,
+    2px 2px #b93131,
+    3px 3px #b93131;
+  transition: all 0.1s ease-in;
+  background-color: #c04545;
+  color: #fff;
+  font-size: 22px;
+  padding: 4px;
+}
+.botao3dred:hover { 
+  box-shadow: none;
+  top: 18px;
+  left: 16px;
+  color: #fff;
+  padding: 6px;
+}
+.avatar {
+	position: relative;
+	top: 35px;
+	left: -23px;
+	display: block;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 70px;
+}
